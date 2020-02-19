@@ -16,6 +16,7 @@ let package = Package(
         .package(url: "https://github.com/RougeWare/Swift-Rectangle-Tools.git", from: "2.4.0"),
         .package(url: "https://github.com/BenLeggiero/Swift-Drawing-Tools.git", .branch("feature/MVP")),
         .package(url: "https://github.com/RougeWare/Swift-Cross-Kit-Types.git", from: "1.0.0"),
+        .package(url: "https://github.com/koher/swift-image.git", from: "0.7.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -25,6 +26,6 @@ let package = Package(
             dependencies: ["RectangleTools", "DrawingTools", "CrossKitTypes"]),
         .testTarget(
             name: "ColorSwatchesTests",
-            dependencies: ["ColorSwatches"]),
+            dependencies: ["ColorSwatches", "SwiftImage"]),
     ]
 )

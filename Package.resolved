@@ -15,8 +15,17 @@
         "repositoryURL": "https://github.com/BenLeggiero/Swift-Drawing-Tools.git",
         "state": {
           "branch": "feature/MVP",
-          "revision": "28c8d894e71961d77d6e5c05c53043b1783c1a7d",
+          "revision": "b50ad42939fede6ae0089a63d61796ec9513e5bd",
           "version": null
+        }
+      },
+      {
+        "package": "SwiftImage",
+        "repositoryURL": "https://github.com/koher/swift-image.git",
+        "state": {
+          "branch": null,
+          "revision": "377d71a9ce4404e255ab46166ad416c4d4871900",
+          "version": "0.7.0"
         }
       },
       {
