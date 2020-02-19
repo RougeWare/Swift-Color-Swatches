@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreGraphics
 import CrossKitTypes
 import RectangleTools
 import DrawingTools
@@ -33,7 +34,7 @@ public extension NativeImage {
     ///
     /// - Parameter size: _optional_ - The size of the resulting image. Defaults to (1 × 1)
     /// - Returns: A clear/transparent/blank image
-    static func blank(size: UIntSize = CGSize(width: 1, height: 1)) -> NativeImage {
+    static func blank(size: CGSize = CGSize(width: 1, height: 1)) -> NativeImage {
         self.swatch(color: .clear, size: size)
     }
 }
