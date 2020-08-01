@@ -10,6 +10,9 @@ import CoreGraphics
 import CrossKitTypes
 import RectangleTools
 import DrawingTools
+#if canImport(UIKit)
+import UIKit
+#endif
 
 
 
@@ -25,7 +28,11 @@ public extension NativeImage {
             guard let context = context else { return swatch }
             context.setFillColor(color.cgColor)
             context.fill(CGRect(origin: .zero, size: swatch.size))
+            #if canImport(UIKit)
+            return UIGraphicsGetImageFromCurrentImageContext() ?? swatch
+            #else
             return swatch
+            #endif
         }
     }
     

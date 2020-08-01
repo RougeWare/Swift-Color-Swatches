@@ -8,6 +8,7 @@
 import Foundation
 import CrossKitTypes
 import RectangleTools
+import CoreGraphics
 
 
 
