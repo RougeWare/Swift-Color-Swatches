@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/BenLeggiero/Swift-Drawing-Tools.git",
         "state": {
           "branch": "feature/MVP",
-          "revision": "b50ad42939fede6ae0089a63d61796ec9513e5bd",
+          "revision": "df71ad154714e3abd2b4947a840b44cba182b552",
           "version": null
         }
       },
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/koher/swift-image.git",
         "state": {
           "branch": null,
-          "revision": "377d71a9ce4404e255ab46166ad416c4d4871900",
-          "version": "0.7.0"
+          "revision": "c61b8cf4613a7fc80d1c2a84231cef2909e837a1",
+          "version": "0.7.1"
         }
       },
       {
@@ -42,8 +42,8 @@
         "repositoryURL": "https://github.com/RougeWare/Swift-Rectangle-Tools.git",
         "state": {
           "branch": null,
-          "revision": "bd3fbcf9c327838cb5eddc3a3ba38cb5f0ed8c37",
-          "version": "2.5.0"
+          "revision": "0bc598fb555e9b7d0569e31a2c5b1b2fb84aab84",
+          "version": "2.6.0"
         }
       }
     ]

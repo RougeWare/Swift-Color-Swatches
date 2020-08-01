@@ -4,6 +4,8 @@ import RectangleTools
 import SwiftImage
 @testable import ColorSwatches
 
+
+
 final class ColorSwatchesTests: XCTestCase {
     func testSimple() {
         let color = NativeColor(red: 50.0/255.0, green: 80.0/255.0, blue: 130.0/255.0, alpha: 1)
@@ -16,7 +18,12 @@ final class ColorSwatchesTests: XCTestCase {
         #else
             #error("Only UIKit and AppKit are testable so far")
         #endif
+        
+        var pixelCount = 0
+        
         inspectableImage.forEach { pixel in
+            pixelCount += 1
+            print(pixel)
             XCTAssertEqual(pixel.red, 50)
             XCTAssertEqual(pixel.green, 80)
             XCTAssertEqual(pixel.blue, 130)
