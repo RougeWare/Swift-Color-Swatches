@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/BenLeggiero/Swift-Drawing-Tools.git",
         "state": {
           "branch": "feature/MVP",
-          "revision": "df71ad154714e3abd2b4947a840b44cba182b552",
+          "revision": "185225c89b6fd43fcbba8572bed1ccccabab607a",
           "version": null
         }
       },
@@ -35,6 +35,15 @@
           "branch": null,
           "revision": "38eee08151bbbefbbb422d02ff2c8da1a8b8bfe1",
           "version": "1.3.0"
+        }
+      },
+      {
+        "package": "OptionalTools",
+        "repositoryURL": "https://github.com/RougeWare/Swift-Optional-Tools.git",
+        "state": {
+          "branch": null,
+          "revision": "8647336830e25b40e377171fa0f2e3db56d55175",
+          "version": "1.1.2"
         }
       },
       {

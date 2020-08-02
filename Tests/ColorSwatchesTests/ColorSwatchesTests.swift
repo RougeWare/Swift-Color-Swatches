@@ -7,8 +7,9 @@ import SwiftImage
 
 
 final class ColorSwatchesTests: XCTestCase {
+    
     func testSimple() {
-        let color = NativeColor(red: 50.0/255.0, green: 80.0/255.0, blue: 130.0/255.0, alpha: 1)
+        let color = NativeColor(red: 50/255, green: 80.0/255, blue: 130.0/255, alpha: 1)
         let size = CGSize(width: 5, height: 5)
         let image = NativeImage.swatch(color: color, size: size)
         #if canImport(UIKit)
@@ -30,7 +31,8 @@ final class ColorSwatchesTests: XCTestCase {
             XCTAssertEqual(pixel.alpha, .max)
         }
     }
-
+    
+    
     static var allTests = [
         ("testSimple", testSimple),
     ]
