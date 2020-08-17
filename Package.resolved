@@ -14,9 +14,9 @@
         "package": "Swift Drawing Tools",
         "repositoryURL": "https://github.com/BenLeggiero/Swift-Drawing-Tools.git",
         "state": {
-          "branch": "feature/MVP",
-          "revision": "185225c89b6fd43fcbba8572bed1ccccabab607a",
-          "version": null
+          "branch": null,
+          "revision": "dcc206a7fbace1176324f422fa3c21b7bc574410",
+          "version": "1.0.0"
         }
       },
       {
@@ -51,8 +51,8 @@
         "repositoryURL": "https://github.com/RougeWare/Swift-Rectangle-Tools.git",
         "state": {
           "branch": null,
-          "revision": "0bc598fb555e9b7d0569e31a2c5b1b2fb84aab84",
-          "version": "2.6.0"
+          "revision": "28d5ec88e786f65f3127c56049045c6b17fc3121",
+          "version": "2.9.0"
         }
       }
     ]
