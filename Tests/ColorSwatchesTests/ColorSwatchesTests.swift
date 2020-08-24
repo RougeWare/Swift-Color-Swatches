@@ -24,12 +24,14 @@ final class ColorSwatchesTests: XCTestCase {
         
         inspectableImage.forEach { pixel in
             pixelCount += 1
-            print(pixel)
             XCTAssertEqual(pixel.red, 50)
             XCTAssertEqual(pixel.green, 80)
             XCTAssertEqual(pixel.blue, 130)
             XCTAssertEqual(pixel.alpha, .max)
         }
+        
+        
+        XCTAssertEqual(pixelCount, .init(size.area))
     }
     
     

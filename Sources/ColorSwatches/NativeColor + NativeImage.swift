@@ -1,8 +1,9 @@
 //
 //  NativeColor + NativeImage.swift
-//  
+//  Swift Color Swatches
 //
 //  Created by Ben Leggiero on 2020-02-17.
+//  Copyright © 2020 Ben Leggiero BH-1-PS
 //
 
 import Foundation
