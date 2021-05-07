@@ -1,16 +1,16 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "Swift Color Swatches",
+    name: "ColorSwatches",
     
     platforms: [
-        .iOS(.v11),
-        .macOS(.v10_12),
-        .watchOS(.v4),
-        .tvOS(.v11),
+        .iOS(.v13),
+        .macOS(.v10_15),
+        .watchOS(.v6),
+        .tvOS(.v13),
     ],
     
     products: [
@@ -21,10 +21,10 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/RougeWare/Swift-Rectangle-Tools.git", from: "2.9.0"),
-        .package(url: "https://github.com/BenLeggiero/Swift-Drawing-Tools.git", from: "1.1.1"),
-        .package(url: "https://github.com/RougeWare/Swift-Cross-Kit-Types.git", from: "1.0.0"),
-        .package(url: "https://github.com/koher/swift-image.git", from: "0.7.0"),
+        .package(name: "RectangleTools", url: "https://github.com/RougeWare/Swift-Rectangle-Tools.git", from: "3.0.0"),
+        .package(name: "DrawingTools", url: "https://github.com/BenLeggiero/Swift-Drawing-Tools.git", from: "2.0.0"),
+        .package(name: "CrossKitTypes", url: "https://github.com/RougeWare/Swift-Cross-Kit-Types.git", from: "1.0.0"),
+        .package(name: "SwiftImage", url: "https://github.com/koher/swift-image.git", from: "0.7.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
