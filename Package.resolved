@@ -12,11 +12,11 @@
       },
       {
         "package": "DrawingTools",
-        "repositoryURL": "https://github.com/BenLeggiero/Swift-Drawing-Tools.git",
+        "repositoryURL": "https://github.com/RougeWare/Swift-Drawing-Tools.git",
         "state": {
           "branch": null,
-          "revision": "f605836e006187ef1e5c2fe00e01f86f02754658",
-          "version": "2.0.0"
+          "revision": "8304645e82acbe7f162f060e4c3327d9345d1ebb",
+          "version": "2.1.0"
         }
       },
       {
@@ -51,8 +51,8 @@
         "repositoryURL": "https://github.com/RougeWare/Swift-Rectangle-Tools.git",
         "state": {
           "branch": null,
-          "revision": "094f0bbf7e84680633d0c535a5f987cd1c9f7258",
-          "version": "3.0.0"
+          "revision": "d91b866ff889d8345dfeae50e01432bbf5c0e839",
+          "version": "2.10.1"
         }
       }
     ]
