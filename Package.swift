@@ -21,10 +21,10 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(name: "RectangleTools", url: "https://github.com/RougeWare/Swift-Rectangle-Tools.git", from: "3.0.0"),
-        .package(name: "DrawingTools", url: "https://github.com/BenLeggiero/Swift-Drawing-Tools.git", from: "2.0.0"),
-        .package(name: "CrossKitTypes", url: "https://github.com/RougeWare/Swift-Cross-Kit-Types.git", from: "1.0.0"),
-        .package(name: "SwiftImage", url: "https://github.com/koher/swift-image.git", from: "0.7.0"),
+        .package(name: "RectangleTools", url: "https://github.com/RougeWare/Swift-Rectangle-Tools.git", from: "2.10.1"),
+        .package(name: "DrawingTools",   url: "https://github.com/RougeWare/Swift-Drawing-Tools.git",   from: "2.1.0"),
+        .package(name: "CrossKitTypes",  url: "https://github.com/RougeWare/Swift-Cross-Kit-Types.git", from: "1.0.0"),
+        .package(name: "SwiftImage",     url: "https://github.com/koher/swift-image.git",               from: "0.7.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
